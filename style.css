@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
 }
+.wrapper{
+    padding-bottom: 10%;
+}
 header{
     display: flex;
     justify-content: space-around;
@@ -25,7 +28,7 @@ header{
     display: flex;
     margin: 0 auto;
     margin-top: 1.5%;
-    width: 63%;
+    width: 67%;
     /* justify-content: center; */
     justify-content: space-around;
 }
@@ -36,7 +39,7 @@ header{
     border-top: 2px solid blue;
     width: 23%;
     border-radius: 5px;
-    background-color: hsl(0, 0%, 77%);
+    background-color: hsl(227, 47%, 96%);
 }
 .fgrid1 h6{
     padding-top: 1.2rem;
@@ -56,7 +59,7 @@ header{
 }
 .fgrid1 p{
     padding-top: 0.2rem;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.15rem;
     color: rgb(167, 165, 165);
     text-transform: uppercase;
     font-weight: 400;
@@ -71,7 +74,7 @@ header{
 
 .secondGrid h2{
     margin: 0 auto;
-    width: 62%;
+    width: 66%;
     color: rgb(167, 165, 165);
     margin-top: 2%;
     margin-bottom: 1%;
@@ -81,7 +84,7 @@ header{
 .subsec1,.subsec2{
     display: flex;
     margin: 0 auto;
-    width: 63%;
+    width: 67%;
     /* justify-content: center; */
     justify-content: space-around;
 }
@@ -190,4 +193,87 @@ header{
   
   .slider.round:before {
     border-radius: 50%;
+  }
+
+
+
+
+
+  /* responsveness */
+
+
+  @media only screen and (max-width: 960px) {
+    .firstGrid{
+        width: 79%;
+    }
+    .fgrid1{
+        width: 23.5%;
+    }
+    .fgrid1 p{
+        letter-spacing: 0.1rem;
+        font-size: 0.9rem;
+    }
+    .secondGrid h2{
+        width: 79%;
+    }
+    .subsec1,.subsec2{
+        width: 79%;
+    }
+    .sgrid1{
+        width: 23.5%;
+    }
+    .subsecgrid2 h6{
+        font-size: 1.4rem;
+    }
+    .subsecgrid2 p{
+        font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+    .leftNav{
+        padding-left: 2rem;
+    }
+    .rightNav p{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .firstGrid{
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 1.5%; */
+        width: 85%;
+        /* justify-content: center; */
+        justify-content: space-around;
+    }
+    .fgrid1{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .secondGrid h2{
+        width: 85%;
+    }
+    .subsec1,.subsec2{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+    .sgrid1{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .subsecgrid1,.subsecgrid2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
   }

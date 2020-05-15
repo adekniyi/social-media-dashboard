@@ -55,6 +55,5 @@ toggle.addEventListener('click',function(){
         for( var i = 0; i<firstH6.length; i++){
             firstH6[i].style.removeProperty("color");
         }
-        // firstGrid.style.removeProperty("color");
     }
 })

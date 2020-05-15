@@ -39,7 +39,7 @@ header{
     border-top: 2px solid blue;
     width: 23%;
     border-radius: 5px;
-    background-color: hsl(227, 47%, 96%);
+    background-color: hsl(0, 0%, 76%);
 }
 .fgrid1 h6{
     padding-top: 1.2rem;
@@ -92,7 +92,7 @@ header{
     /* padding: 50px; */
     width: 23%;
     border-radius: 5px;
-    background-color: hsl(227, 47%, 96%);
+    background-color: hsl(0, 0%, 76%);
 }
 .subsecgrid1,.subsecgrid2{
     display: flex;
@@ -109,7 +109,7 @@ header{
 .subsecgrid1{
     padding-top: 1rem;
     padding-bottom: 0.8rem;
-    color: rgb(167, 165, 165);
+    color: rgb(216, 216, 216);
 }
 .subsec2{
     margin-top: 2%;

@@ -14,16 +14,16 @@ const h4 = document.querySelectorAll('.fgrid1 h4');
 toggle.addEventListener('click',function(){
     if (this.checked) {
         console.log('it working')
-        document.body.style.backgroundColor = "red";
+        document.body.style.backgroundColor = "hsl(232, 19%, 15%)";
         header.style.color = "white";
         for( var i = 0; i<h6.length; i++){
-            h6[i].style.color = "white";
+            h6[i].style.color = "rgb(167, 165, 165)";
         }
         for( var i = 0; i<secondH6.length; i++){
             secondH6[i].style.color = "white";
         }
         for( var i = 0; i<firstH6.length; i++){
-            firstH6[i].style.color = "white";
+            firstH6[i].style.color = "rgb(167, 165, 165)";
         }
         for( var i = 0; i<h4.length; i++){
             h4[i].style.color = "white";
@@ -31,10 +31,10 @@ toggle.addEventListener('click',function(){
         // h6.style.color = "white";
         // h4.style.color = "white";
         for( var i = 0; i<firstGrid.length; i++){
-            firstGrid[i].style.backgroundColor = "green";
+            firstGrid[i].style.backgroundColor = "hsl(228, 28%, 20%)";
         }
         for( var i = 0; i<secondGrid.length; i++){
-            secondGrid[i].style.backgroundColor = "green";
+            secondGrid[i].style.backgroundColor = "hsl(228, 28%, 20%)";
         }
     }
     else{

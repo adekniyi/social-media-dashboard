@@ -13,7 +13,6 @@ const h4 = document.querySelectorAll('.fgrid1 h4');
 
 toggle.addEventListener('click',function(){
     if (this.checked) {
-        console.log('it working')
         document.body.style.backgroundColor = "hsl(232, 19%, 15%)";
         header.style.color = "white";
         for( var i = 0; i<h6.length; i++){
@@ -28,8 +27,6 @@ toggle.addEventListener('click',function(){
         for( var i = 0; i<h4.length; i++){
             h4[i].style.color = "white";
         }
-        // h6.style.color = "white";
-        // h4.style.color = "white";
         for( var i = 0; i<firstGrid.length; i++){
             firstGrid[i].style.backgroundColor = "hsl(228, 28%, 20%)";
         }
@@ -38,11 +35,8 @@ toggle.addEventListener('click',function(){
         }
     }
     else{
-        console.log('it not working');
         document.body.style.removeProperty("background-color");
         header.style.removeProperty("color");
-        // h6.style.removeProperty("color");
-        // h4.style.removeProperty("color");
         for( var i = 0; i<firstGrid.length; i++){
             firstGrid[i].style.removeProperty("background-color");
         }
